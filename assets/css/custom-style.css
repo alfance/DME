@@ -30,7 +30,15 @@ height:auto;
 .max-30height {
     max-height: 300px;
 }
-
+.content-height{
+    height:auto;
+    position: relative;
+}
+.img-height {
+    height:auto;
+    max-height: 200px !important;
+    position: absolute;
+}
 .portfolio-sec p{
     color: #777;
 }
@@ -42,8 +50,33 @@ height:auto;
     background-color: #eee;
     margin:20px 0 20px 0;
 }
-/* ********************* icons *********************  */
 
+.calender {
+    width:100%;
+    height:auto;
+    min-height:650px;
+}
+.tableHeight{
+    float:left;
+    display:table;
+}
+.matchHeight{
+    display:table-cell;
+}
+/* ********************* icons *********************  */
+.small-icon i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 34px;
+  text-align: center;
+  background-color: #F37626;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+}
 .icon-pc {
     background-image: url("../img/icon/icon-01.svg");
     background-position: center center;
@@ -70,6 +103,13 @@ height:auto;
     fill:#F37626;
 }
 
+
+@media (min-width: 983px) {
+    .button-position {
+        margin-top:-200px;
+        display:inline;
+    }
+}
 @media (max-width: 768px) {
     .navbar-logo{
         width: 60vw;

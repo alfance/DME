@@ -335,6 +335,8 @@ small {
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
+  width:auto;
+  min-width:200px;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -641,7 +643,7 @@ MULTI LEVEL DROPDOWN CSS
   padding: 80px 0;
 }
 #content-region-2 .testi-person {
-  color: #fff;
+  color: #fff !important;
 }
 #content-region-2 .flex-control-paging li a {
   background: transparent;
@@ -650,6 +652,15 @@ MULTI LEVEL DROPDOWN CSS
 #content-region-2 .flex-control-paging li a.flex-active {
   background-color: #fff;
   border-color: #fff;
+}
+#content-region-2 p{
+      color: #fff;
+}
+#content-region-2 h3{
+      color: #F37626;
+}
+#content-region-2 h4{
+      color: #F37626;
 }
 
 /**********************************************footer*****************************************/
@@ -1450,7 +1461,6 @@ h3.subtitle {
 .services-icon i {
   color: #fff;
   width: 80px;
-  line-height: 80px;
   height: 80px;
   font-size: 34px;
   text-align: center;
@@ -1527,7 +1537,7 @@ h3.subtitle {
 /****************breadcrumbs*********************************************/
 .page-tree-bg,
 .page-tree-bg2 {
-  background-image: url("../img/bread-bg.png");
+  background-image: url("../img/bg.png");
   background-position: center 688px;
   background-color: #F37626;
   padding: 40px 0;
@@ -1991,7 +2001,7 @@ a.carousel-control i {
   }
 
   body.boxed {
-    background: url("../img/bread-bg.png") repeat;
+    background: url("../img/bg.png") repeat;
   }
 }
 .boxed-wrapper .navbar-default.sticky {
