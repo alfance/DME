@@ -623,7 +623,6 @@ MULTI LEVEL DROPDOWN CSS
 .slider-text p {
   color: #fff;
   font-family: "Libre Baskerville", serif;
-  font-style: italic;
   font-size: 20px;
 }
 
@@ -675,7 +674,6 @@ MULTI LEVEL DROPDOWN CSS
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 30px;
-  letter-spacing: 2px;
 }
 .footer-col h3:first-letter {
   border-bottom: 5px solid #F37626;
@@ -1196,7 +1194,6 @@ MULTI LEVEL DROPDOWN CSS
 .blog-post-title a {
   font-size: 15px;
   font-weight: 600;
-  letter-spacing: 2px;
   color: inherit;
 }
 
@@ -1324,7 +1321,6 @@ h4.portfolio-post-title {
   margin-bottom: 5px;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -1395,14 +1391,12 @@ h3.heading-sec {
   font-size: 29px;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 4px;
 }
 
 h3.subtitle {
   font-weight: 300;
   font-size: 18px;
   color: #b3b3b3;
-  font-style: italic;
 }
 
 .header-main {
@@ -1708,7 +1702,6 @@ h3.heading-progress {
 .form-btm-link span {
   margin: 0px 20px;
   font-family: "Libre Baskerville", serif;
-  font-style: italic;
   font-size: 23px;
 }
 
@@ -1719,7 +1712,6 @@ h3.heading-progress {
 
 .error-text h3 {
   font-family: "Libre Baskerville", serif;
-  font-style: italic;
 }
 
 /*contact*/
@@ -2024,7 +2016,6 @@ a.carousel-control i {
   text-transform: uppercase;
   font-weight: 500;
   color: #000;
-  letter-spacing: 2px;
 }
 .newsletter-section p {
   margin-bottom: 30px;
